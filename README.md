@@ -1,4 +1,4 @@
-# Magento Notification Bar #
+# Magento Notification Bar for v1.7.0.2#
 
 Easily add and customize a notification bar across the top of your Magento ecommerce site, allowing you to make announcements and leave notices to keep your customers informed and engaged.
 
