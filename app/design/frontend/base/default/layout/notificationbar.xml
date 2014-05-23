@@ -14,7 +14,9 @@
             <block type="notificationbar/html_styles" name="notification_bar_style" as="notification_bar_style" template="notificationbar/html/styles.phtml" />
         </reference>
         <reference name="after_body_start">
-            <block type="notificationbar/html_notifications" name="notificationbar_notifications" template="notificationbar/html/notifications.phtml" />
+            <block type="notificationbar/html_notifications" name="notificationbar_notifications" template="notificationbar/html/notifications.phtml">
+				<block type="page/switch" name="store_switcher_notibar" as="store_switcher_notibar" template="notificationbar/switch/stores.phtml"/>            
+            </block>
         </reference>
     </default>
 </layout>
