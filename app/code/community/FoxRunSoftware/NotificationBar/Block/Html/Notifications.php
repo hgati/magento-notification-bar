@@ -24,6 +24,7 @@ class FoxRunSoftware_NotificationBar_Block_Html_Notifications extends Mage_Core_
     const XML_PATH_NOTIFICATIONBAR_FIXED         = 'design/notificationbar/fixed';
     const XML_PATH_NOTIFICATIONBAR_START_DATE    = 'design/notificationbar/start_date';
     const XML_PATH_NOTIFICATIONBAR_END_DATE      = 'design/notificationbar/end_date';
+    const XML_PATH_NOTIFICATIONBAR_DISPLAY_STORE = 'design/notificationbar/display_store';
     
     /**
      * Check if the notifications bar should be displayed
@@ -70,8 +71,11 @@ class FoxRunSoftware_NotificationBar_Block_Html_Notifications extends Mage_Core_
      * @return boolean
      */
     protected function _hasNotificationContent() {
+    	return true;
+    	/*
         $content = $this->getNotificationContent();
         return !empty($content);
+        */
     }
     
     /**
