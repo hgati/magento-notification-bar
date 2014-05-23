@@ -31,7 +31,7 @@
 	    #notification-bar .notification-close a:hover { text-decoration: none; }
 	<?php endif; ?>
 	<?php if($this->isFixed()) : ?>
-		#notification-bar { position: fixed;top: 0;width: 100%;z-index: 100;border-bottom: 1px solid black; }
+		#notification-bar { position: fixed;top: 0;width: 100%;z-index: 100;border-bottom: 1px solid snow; }
 		body { margin-top: <?php echo $this->getFixedMargin() ?>; }
 	<?php endif; ?>
 	<?php if($this->useDefaultStyles() || $this->isFixed()) : ?>
