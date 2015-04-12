@@ -13,7 +13,7 @@
 		"map": [
             ["app/code/community/FoxRunSoftware/NotificationBar", "app/code/community/FoxRunSoftware/NotificationBar"],
             ["app/etc/modules/FoxRunSoftware_NotificationBar.xml", "app/etc/modules/FoxRunSoftware_NotificationBar.xml"],
-            ["app/design/frontend/base/default/layout/notificationbar.xml", "app/design/frontend/base/default/layout/notificationbar.xml"],
+            ["app/design/frontend/base/default/layout/notificationbar.xml", "app/design/frontend/base/default/layout/notificationbar.xml"], 
             ["app/design/frontend/base/default/template/notificationbar", "app/design/frontend/base/default/template/notificationbar"]
         ]
     }
